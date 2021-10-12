@@ -165,6 +165,7 @@
         comentario: '',        
         terms: false,
       })
+
       return {
         form: Object.assign({}, defaultForm),
         rules: {
@@ -180,6 +181,7 @@
         defaultForm,
       }
     },
+
     computed: {
       formIsValid () {
         return (
@@ -190,6 +192,7 @@
         )
       },
     },
+
     methods: {
       resetForm () {
         this.form = Object.assign({}, this.defaultForm)
