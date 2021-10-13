@@ -1,125 +1,24 @@
 <template>
     <body>
-            <section class="contenedor">
-                <h2 class="fw-300 centrar-texto">Conoce Más Sobre Nosotros</h2>
-
-                <div class="iconos-nosotros">
-                    <div class="iconos">
-                        <img src="../assets/imgs/icono1.svg" alt="Icono Seguridad">
-                        <h3>Seguridad</h3>
-                        <p>Es fundamental la seguridad en actividades y escenarios recreativos, siempre contar con un amplio beneficio en los temas de seguridad en las diferentes actividades, respaldo permanente con aseguradoras</p>
-                    </div>
-
-                    <div class="iconos">
-                        <img src="../assets/imgs/icono2.svg" alt="Icono Mejor Precio">
-                        <h3>El Mejor Precio</h3>
-                        <p>Las actividades realizadas cuentan con un gran beneficio en lo referente a costos y gastos, es importante el factor de gastos e inversion siempre buscando el beneficio personal y familiar en las actividades</p>
-                    </div>
-
-                    <div class="iconos">
-                        <img src="../assets/imgs/icono3.svg" alt="Icono tiempo">
-                        <h3>A Tiempo</h3>
-                        <p>Programamos las actividades entendiendo la importancia del factor tiempo en cada momento, la puntualidad es importante al aprovechar el tiempo en la diferentes actividades realizadas en cada evento segun agenda</p>
-                    </div>
-                </div>
-
-            </section>
-
-            <main class="contenedor seccion">
-                <h2 class="fw-300 centrar-texto">Escenarios y Actividades Turisticas</h2>
-
-                <div class="contenedor-anuncios">
-                    <div class="anuncio">
-                        <img src="../assets/imgs/anuncio1.jpg" alt="Casa en Lago">
-                        <div class="contenido-anuncio">
-                            <h3>Tren Turistico Sabana</h3>
-                            <p>Disfruta del paisaje de la Sabana de Bogotá, viaja utilizand el Tren Turistico</p>
-                            <p class="precio">$63.000</p>
-                            <a href="../components/anuncio.vue" class="boton boton-amarillo d-block">Información Adicional</a>
-                        </div>
-                    </div>
-
-                    <div class="anuncio">
-                        <img src="../assets/imgs/anuncio2.jpg" alt="Casa terminados lujo">
-                        <div class="contenido-anuncio">
-                            <h3>Catedral de la Sal</h3>
-                            <p>La Catedral de Sal de zipaquira es un recinto construido en el interior de las minas de sal</p>
-                            <p class="precio">$42.000</p>
-                            <a href="../components/anuncio.vue" class="boton boton-amarillo d-block">Información Adicional</a>
-                        </div>
-                    </div>
-
-                    <div class="anuncio">
-                        <img src="../assets/imgs/anuncio3.jpg" alt="Casa alberca">
-                        <div class="contenido-anuncio">
-                            <h3>Piedras Del Tunjo</h3>
-                            <p>denominado por su historia tambien, como también el Cercado de los Zipas o el Santuario de la rana</p>
-                            <p class="precio">$21.000</p>
-                            <a href="../components/anuncio.vue" class="boton boton-amarillo d-block">Información Adicional</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="ver-todas">
-                    <a href="../views/Actividades.vue" class="boton boton-verde">Ver todas</a>
-                </div>
-            </main>
-
-            <section class="imagen-contacto">
-                <div class="contenedor contenido-contacto">
-                    <h2>Encuentra la actividad Ecoturistica de tus sueños</h2>
-                    <p>Llena el formulario de contacto y un asesor se comunicará contigo a la brevedad</p>
-                    <a href="contacto.html" class="boton boton-amarillo">Contactános</a>
-                </div>
-            </section>
-            <!--BLOG-->
-            <div class="seccion-inferior contenedor">
-                <section class="blog">
-                    <h3 class="centrar-texto fw-300">Nuestro Blog</h3>
-
-                    <article class="entrada-blog">
-                        <div class="imagen">
-                            <img src="../assets/imgs/blog1.jpg" alt="Blog post 1">
-                        </div>
-                        <div class="texto-entrada">
-                            <a href="entrada.html">
-                                <h4>Escenarios turisticos club ecologico</h4>
-                            </a>
-                            <p>Escrito el:<span>14/10/2021</span> por:<span> Admin</span></p>
-                            <p>Consejos para un descanso adecuado, disfrutar del medio ambiente alejado de la ciudad</p>
-                        </div>
-                    </article>
-
-                    <article class="entrada-blog">
-                        <div class="imagen">
-                            <img src="../assets/imgs/blog2.jpg" alt="Blog post 2">
-                        </div>
-                        <div class="texto-entrada">
-                            <a href="entrada.html">
-                                <h4>Guía para actividad dia acuatico</h4>
-                            </a>
-                            <p>Escrito el:<span>14/10/2021</span> por:<span> Admin</span></p>
-                            <p>Maximiza tu descanso, aprovechando al maximo actividades de piscina en diferentes centros vacacionales</p>
-                        </div>
-                    </article>
-
-                </section>
-
-                <section class="testimoniales">
-                    <h3 class="centrar-texto fw-300">Testimonios</h3>
-                    <div class="testimonial">
-
-                        <blockquote>
-                            El personal se comportó de manera excelente, muy buena atención y me asesoraron bien para encontrar la actividad que cumple con mis expectativas. Definitivamente es un servicio que recomiendo.
-                        </blockquote>
-                        <p>- Jose Gonzalez M.</p>
-                    </div>
-                </section>
+        <h1 class="centrar-texto fw-300">ACTIVIDADES Y EVENTOS DE ECOTURISMO</h1>
+        <img src="../assets/imgs/destacada.jpg" alt="Destacada anuncios">
+        <main class="contenedor seccion contenido-centrado">
+            <div class="resumen-propiedad">
             </div>
+            <!--Resumen Propiedad-->
+            <p>El turismo como actividad económica en Colombia ha crecido expo­nencialmente durante los últimos ocho años.
+            De acuerdo con el Depar­tamento Administrativo Nacional de Estadística - DANE, en el año 2017, esta actividad
+            aumentó en un 27 %, con un crecimiento que triplica el promedio anual en el mundo. Así mismo, el país se ha
+            posicionado en la lista de destinos turísticos más atractivos en Latinoamérica, debido a sus ventajas competitivas
+            que surgen de la biodiversidad, la variedad de climas y la po­sibilidad de acceder al ecoturismo.</p>
 
-       </body>
+            <p> Es así que se proyecta que para el 2023 el país podría recibir cerca de 5 millones de turistas en 2023, según un análisis
+            de BBVA Research. Según el estudio en Cundinamarca, las ocho provincias Gualivá, Almeidas, Ubaté, Soacha-Sibaté, 
+            Sabana Centro, Sabana Occidente, Sumapaz y Alto Magdalena, se destacan por su cercanía a la capital, lo que permite
+            más afluencia de turistas a los principales destinos de los municipios que hacen parte del departamento.</p>
+        </main>
+    </body>
 </template>
-
 
 <style> 
     html {
