@@ -11,10 +11,10 @@
       
     >
       <v-card-title class="teal">
-        <h5 class="
+        <h4 class="
         font-text Italic text
         text-center"
-        >Te esperamos en nuestras redes sociales</h5>
+        >Te esperamos en nuestras redes sociales</h4>
 
         <v-spacer></v-spacer>
 
