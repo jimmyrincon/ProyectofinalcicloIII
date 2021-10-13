@@ -7,22 +7,20 @@
 
     
   </router-view>
-  <my-footer>
-    <Footer/>
-  </my-footer>
+ 
 </div>    
 </template>
 
 
 <script>
   import Carousel from "./Components/Carousel.vue";
-  import Footer from "./Components/Footer.vue";
+  
  
   export default {
     name: 'Home',
     components: {
-      Carousel,
-      Footer,
+      Carousel
+      
       
       }, 
   }
