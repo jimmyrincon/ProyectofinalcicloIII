@@ -73,6 +73,7 @@ export default {
                 {title: "Home", icon: "mdi-home", name: "Home"},
                 {title: "Actividades", icon: "mdi-clipboard-list", name: "Actividades"},
                 {title: "Blog", icon: "mdi-dialpad", name: "Blog"},
+                {title: "Nosotros", icon: "mdi-domain", name: "Nosotros"},
             ]
         }
     }

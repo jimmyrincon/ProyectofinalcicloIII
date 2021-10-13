@@ -25,6 +25,13 @@
       Este plan está a solo hora y media de Bogotá!
     </v-card-subtitle>
 
+    <div class="text-center">
+    <v-rating
+      v-model="rating"
+      icon-label="custom icon label text {0} of {1}"
+    ></v-rating>
+    </div>
+
     <v-card-actions>
       <v-btn
         color="orange lighten-2"
@@ -76,6 +83,13 @@
     <v-card-subtitle>
       Este plan está a solo hora y media de Bogotá!
     </v-card-subtitle>
+
+    <div class="text-center">
+    <v-rating
+      v-model="rating"
+      icon-label="custom icon label text {0} of {1}"
+    ></v-rating>
+    </div>
 
     <v-card-actions>
       <v-btn
@@ -131,6 +145,13 @@
       A una hora de Bogotá y es conocido como el parque de escalada más grande de Colombia!
     </v-card-subtitle>
 
+    <div class="text-center">
+    <v-rating
+      v-model="rating"
+      icon-label="custom icon label text {0} of {1}"
+    ></v-rating>
+    </div>
+
     <v-card-actions>
       <v-btn
         color="orange lighten-2"
@@ -179,10 +200,17 @@
     <v-card-title>
       La Vega
     </v-card-title>
-
+ 
     <v-card-subtitle>
       Este plan está a solo una hora y cuarenta minutos de Bogotá!
     </v-card-subtitle>
+
+    <div class="text-center">
+    <v-rating
+      v-model="rating"
+      icon-label="custom icon label text {0} of {1}"
+    ></v-rating>
+    </div>
 
     <v-card-actions>
       <v-btn
@@ -235,6 +263,13 @@
     <v-card-subtitle>
       Este plan está a solo una hora de Bogotá!
     </v-card-subtitle>
+
+    <div class="text-center">
+    <v-rating
+      v-model="rating"
+      icon-label="custom icon label text {0} of {1}"
+    ></v-rating>
+    </div>
 
     <v-card-actions>
       <v-btn
@@ -290,6 +325,13 @@
       Este plan está a solo hora y media de Bogotá!
     </v-card-subtitle>
 
+    <div class="text-center">
+    <v-rating
+      v-model="rating"
+      icon-label="custom icon label text {0} of {1}"
+    ></v-rating>
+    </div>
+
     <v-card-actions>
       <v-btn
         color="orange lighten-2"
@@ -336,6 +378,7 @@
   export default {
     data: () => ({
       show: false,
+      rating: 4,
     }),
   }
 </script>

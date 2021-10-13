@@ -16,7 +16,7 @@
 
 <script>
   import Carousel from "./Components/Carousel.vue";
-  import Footer from "../../components/Footer.vue";
+  import Footer from "./Components/Footer.vue";
  
   export default {
     name: 'Home',
