@@ -11,10 +11,11 @@
       
     >
       <v-card-title class="teal">
-        <h6 class="
+        <subtitle-1 class="
+        Medium weight text.
         font-text Italic text
-        text-center"       
-        >Te esperamos en nuestras redes sociales</h6>
+        text-center"
+        >Te esperamos en nuestras redes sociales</subtitle-1>
 
         <v-spacer></v-spacer>
 

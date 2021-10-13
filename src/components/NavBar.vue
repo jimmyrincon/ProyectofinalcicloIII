@@ -5,6 +5,7 @@
         dark 
         v-model="drawer"
         absolute 
+        fon
         temporary 
         app 
         class="green darken-1">

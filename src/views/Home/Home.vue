@@ -1,27 +1,22 @@
 <template>
-<div id="app" class="top-container">
-  <my-header>
-    <carousel/>
-  </my-header>
-  <router-view>
+  <div id="app" class="top-container">    
+      <Carousel/>    
+      <Body/>
+   
 
-    
-  </router-view>
- 
-</div>    
+  </div>    
 </template>
 
 
 <script>
-  import Carousel from "./Components/Carousel.vue";
-  
+  import Carousel from "./Components/Carousel.vue";  
+  import Body from "../../components/Body.vue";
  
   export default {
     name: 'Home',
     components: {
-      Carousel
-      
-      
-      }, 
+      Carousel,     
+      Body, 
+    }
   }
 </script>
