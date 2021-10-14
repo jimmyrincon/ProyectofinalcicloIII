@@ -26,7 +26,11 @@
             </section>
 
             <main class="contenedor seccion">
-                <h2 class="fw-300 centrar-texto">Escenarios y Actividades Turisticas</h2>
+                 <v-row no-gutters justify="center" align="center">
+                    <h1 class=" font-weight-black mt-3">
+                    Actividades <span class="font-weight-regular">Ecoturisticas</span>
+                    </h1>
+                 </v-row>
 
                 <div class="contenedor-anuncios">
                     <div class="anuncio">
@@ -35,7 +39,7 @@
                             <h3>Tren Turistico Sabana</h3>
                             <p>Disfruta del paisaje de la Sabana de Bogotá, viaja utilizand el Tren Turistico</p>
                             <p class="precio">$63.000</p>
-                            <a href="../components/anuncio.vue" class="boton boton-amarillo d-block">Información Adicional</a>
+                            
                         </div>
                     </div>
 
@@ -45,7 +49,7 @@
                             <h3>Catedral de la Sal</h3>
                             <p>La Catedral de Sal de zipaquira es un recinto construido en el interior de las minas de sal</p>
                             <p class="precio">$42.000</p>
-                            <a href="../components/anuncio.vue" class="boton boton-amarillo d-block">Información Adicional</a>
+                            
                         </div>
                     </div>
 
@@ -55,62 +59,60 @@
                             <h3>Piedras Del Tunjo</h3>
                             <p>denominado por su historia tambien, como también el Cercado de los Zipas o el Santuario de la rana</p>
                             <p class="precio">$21.000</p>
-                            <a href="../components/anuncio.vue" class="boton boton-amarillo d-block">Información Adicional</a>
+                            
                         </div>
                     </div>
                 </div>
 
-                <div class="ver-todas">
-                    <a href="../views/Actividades.vue" class="boton boton-verde">Ver todas</a>
-                </div>
+                
             </main>
 
             <section class="imagen-contacto">
                 <div class="contenedor contenido-contacto">
-                    <h2>Encuentra la actividad Ecoturistica de tus sueños</h2>
-                    <p>Llena el formulario de contacto y un asesor se comunicará contigo a la brevedad</p>
-                    <a href="contacto.html" class="boton boton-amarillo">Contactános</a>
+                    <h2>Encuentra la actividad Ecoturistica que más te gusta en la región</h2>
+                    
+                    
                 </div>
             </section>
             <!--BLOG-->
             <div class="seccion-inferior contenedor">
                 <section class="blog">
-                    <h3 class="centrar-texto fw-300">Nuestro Blog</h3>
+                    
 
                     <article class="entrada-blog">
-                        <div class="imagen">
-                            <img src="../assets/imgs/blog1.jpg" alt="Blog post 1">
+                        <div class="imagen mt-4">
+                            <img src="../assets/imgs/laguna.jpg" alt="Blog post 1">
                         </div>
                         <div class="texto-entrada">
-                            <a href="entrada.html">
-                                <h4>Escenarios turisticos club ecologico</h4>
-                            </a>
-                            <p>Escrito el:<span>14/10/2021</span> por:<span> Admin</span></p>
-                            <p>Consejos para un descanso adecuado, disfrutar del medio ambiente alejado de la ciudad</p>
+                            
+                                <h4 class="mt-4">Planes cerca de Bogotá</h4>
+                            
+                            
+                            <p class="mt-4">Encuentra algunos de los mejores planes que puedes hacer a menos de 2 horas de la ciudad!</p>
                         </div>
                     </article>
 
                     <article class="entrada-blog">
                         <div class="imagen">
-                            <img src="../assets/imgs/blog2.jpg" alt="Blog post 2">
+                            <img src="../assets/imgs/parquenaturalsumapaz.jpg" alt="Blog post 2">
                         </div>
                         <div class="texto-entrada">
-                            <a href="entrada.html">
-                                <h4>Guía para actividad dia acuatico</h4>
-                            </a>
-                            <p>Escrito el:<span>14/10/2021</span> por:<span> Admin</span></p>
-                            <p>Maximiza tu descanso, aprovechando al maximo actividades de piscina en diferentes centros vacacionales</p>
+                            
+                                <h4>Parques nacionales imperdibles</h4>
+                            
+                            
+                            <p class="mt-4">Aquí encontrarás una guía de los parques nacionales de la región!</p>
                         </div>
                     </article>
 
                 </section>
 
                 <section class="testimoniales">
-                    <h3 class="centrar-texto fw-300">Testimonios</h3>
+                    <h3 class="centrar-texto fw-300">Comentarios</h3>
                     <div class="testimonial">
 
                         <blockquote>
-                            El personal se comportó de manera excelente, muy buena atención y me asesoraron bien para encontrar la actividad que cumple con mis expectativas. Definitivamente es un servicio que recomiendo.
+                            Me encanta la información que puedeo encontrar aquí! 
                         </blockquote>
                         <p>- Jose Gonzalez M.</p>
                     </div>
@@ -353,7 +355,7 @@
     /*Contacto Home (Encuentra la casa de tus sueños)*/
 
     .imagen-contacto {
-        background-image: url(../assets/imgs/encuentra.jpg);
+        background-image: url(../assets/imgs/ecoturismo.jpeg);
         background-position: center center;
         background-size: cover;
         height: 40rem;

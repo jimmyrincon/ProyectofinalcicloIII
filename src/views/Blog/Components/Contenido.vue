@@ -1,7 +1,5 @@
 <template>
  
-<body>
-
 
 <main class="contenedor seccion contenido-centrado">
      <v-container>
@@ -19,7 +17,7 @@
         <div class="texto-entrada">            
                 <h4>Embalse de Tominé</h4>
                        
-            <p class="mt-3">En el Embalse de Tominé puedes practicar deportes náuticos, pasear en velero o sencillamente caminar por sus senderos en busca de un poco de tranquilidad y calma. Ten presente que recorrer el pueblo, los alrededores del embalse e ir a la laguna demandan mucho tiempo, por lo que este es uno de los mejores planes cerca a Bogotá para parejas y familias que quieren viajar en moto o en carro.</p>
+            <p class="mt-3" >En el Embalse de Tominé puedes practicar deportes náuticos, pasear en velero o sencillamente caminar por sus senderos en busca de un poco de tranquilidad y calma. Ten presente que recorrer el pueblo, los alrededores del embalse e ir a la laguna demandan mucho tiempo, por lo que este es uno de los mejores planes cerca a Bogotá para parejas y familias que quieren viajar en moto o en carro.</p>
         </div>
     </article>
 
@@ -61,7 +59,7 @@
 </main>
 
 
-</body>
+
 
 </template>
 

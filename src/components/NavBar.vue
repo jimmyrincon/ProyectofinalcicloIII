@@ -4,8 +4,7 @@
        <v-navigation-drawer 
         dark 
         v-model="drawer"
-        absolute 
-        fon
+        absolute         
         temporary 
         app 
         class="green darken-1">
