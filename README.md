@@ -1,4 +1,12 @@
-# practica
+# Proyecto ciclo 3: Ecoturismo Cundinamarca 
+
+Grupo 1 del grupo 41, integrantes: 
+
+Sonia Pulido
+Sergio Ramos
+Jimmy Rincon
+Julián Gaviria 
+David Martínez 
 
 ## Project setup
 ```
