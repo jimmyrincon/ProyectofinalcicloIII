@@ -6,7 +6,7 @@
         v-model="drawer"
         absolute         
         temporary 
-        app 
+        app         
         class="green darken-1">
            <v-list dense nav>
         <v-list-item
@@ -20,7 +20,7 @@
           </v-list-item-icon>
 
           <v-list-item-content>
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
+            <v-list-item-title class="text-h6">{{ item.title }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>

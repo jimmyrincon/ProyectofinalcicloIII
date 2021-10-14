@@ -23,8 +23,8 @@
         </div>
 
         <v-card-text>
-          <h2 class="text-h6 red--text text-center ">{{ equipo.name }}</h2>
-          <p class="text-caption text-center">{{ equipo.text }}</p>
+          <h2 class="text-h5 red--text text-center ">{{ equipo.name }}</h2>
+          <p class="text-h6 text-center">{{ equipo.text }}</p>
         </v-card-text>
       </v-card>
     </div>
@@ -41,7 +41,7 @@ export default {
         {
           name: "Jimmy Rincón",
           img: require("../../src/assets/imgs/foto-jimmy.jpg"),
-          text: "Scrum Master",
+          text: "Ventas",
         },
         {
           name: "Sergio Ramos",
@@ -51,17 +51,17 @@ export default {
         {
           name: "David Martinez",
           img: require("../../src/assets/imgs/foto-david.jpg"),
-          text: "Atención al cliente",
+          text: "Supervisor de actividades",
         },
         {
           name: "Julian Gaviria",
           img: require("../../src/assets/imgs/foto-julian.jpg"),
-          text: "Atención al cliente",
+          text: "Logística",
         },
         {
           name: "Sonia Pulido",
           img: require("../../src/assets/imgs/foto-sonia.jpg"),
-          text: "Atención al cliente",
+          text: "Administración",
         },
               ],
     };
